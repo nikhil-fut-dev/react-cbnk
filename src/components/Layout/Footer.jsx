@@ -102,6 +102,7 @@ const Footer = () => {
         <div className={styles.links}>
           <a href="#">Privacy policy</a>
           <a href="#">Cookie policy</a>
+          <a href="#">Cookie setting</a>
         </div>
       </div>
     </footer>
