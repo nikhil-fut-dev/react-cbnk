@@ -74,7 +74,7 @@
 
 @media (max-width: 768px) {
   .banner img {
-    height: 260px;
+    height: 240px;
   }
   .content left,
   .altContent left {
@@ -83,5 +83,41 @@
   .content h1,
   .altContent h1 {
     font-size: 22px;
+  }
+  .title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .title::after {
+    width: 45px;
+    height: 4px;
+  }
+  .banner{
+    padding: 0px;
+  }
+  .content,
+  .altContent {
+    left: 16px;
+    max-width: 400px;
+  }
+  .content p {
+    font-size: 14px;
+    margin: 0 0 5px;
+  }
+  .content h1,
+  .altContent h1 {
+    font-size: 20px;
+    margin: 0 0 5px;
+  }
+  .altContent span {
+    font-size: 18px;
+  }
+  .content span {
+    font-size: 18px;
+  }
+  .altContent p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 5px;
   }
 }
