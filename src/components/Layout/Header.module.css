@@ -220,4 +220,12 @@
     min-width: 80px;
     flex: 0 0 auto;
   }
+  .offerBar{
+    margin-top: 0px;
+  }
+  .offerContainer{
+    width: 100%;
+    font-size: 12px;
+    padding: 10px;
+  }
 }
