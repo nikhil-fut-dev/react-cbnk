@@ -117,7 +117,6 @@ const HeroSlider = () => {
         ))}
       </div>
 
-      {/* ===== REPLACED WITH ACCESSIBLE FONTAWESOME COMPONENT ARROWS ===== */}
       <div className={`${styles.arrow} ${styles.left}`} onClick={prevSlide}>
         <FontAwesomeIcon icon={faChevronLeft} />
       </div>

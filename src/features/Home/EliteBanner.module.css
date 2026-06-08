@@ -12,6 +12,19 @@
   color: white;
   position: relative;
 }
+.banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.05) 2px,
+    transparent 10px,
+    transparent 20px
+  );
+  opacity: 0.2;
+}
 .left {
   max-width: 55%;
   z-index: 1;
